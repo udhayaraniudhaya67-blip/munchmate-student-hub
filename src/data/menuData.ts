@@ -3,6 +3,10 @@ import pasta from "@/assets/pasta.jpg";
 import salad from "@/assets/salad.jpg";
 import pizza from "@/assets/pizza.jpg";
 import dessert from "@/assets/dessert.jpg";
+import dosa from "@/assets/dosa.jpg";
+import idli from "@/assets/idli.jpg";
+import samosa from "@/assets/samosa.jpg";
+import drinks from "@/assets/drinks.jpg";
 import { MenuItem } from "@/types/menu";
 
 export const menuItems: MenuItem[] = [
@@ -113,6 +117,132 @@ export const menuItems: MenuItem[] = [
     rating: 4.6,
     isComboEligible: false,
   },
+  
+  // South Indian
+  {
+    id: 11,
+    name: "Masala Dosa",
+    description: "Crispy rice crepe filled with spiced potato masala, served with sambar and chutney",
+    price: 8.99,
+    image: dosa,
+    category: "South Indian",
+    rating: 4.9,
+    isComboEligible: true,
+  },
+  {
+    id: 12,
+    name: "Idli Vada",
+    description: "Steamed rice cakes and crispy lentil fritters with sambar and coconut chutney",
+    price: 7.99,
+    image: idli,
+    category: "South Indian",
+    rating: 4.8,
+    isComboEligible: true,
+  },
+  {
+    id: 13,
+    name: "Rava Dosa",
+    description: "Crispy semolina crepe served with sambar and chutneys",
+    price: 8.49,
+    image: dosa,
+    category: "South Indian",
+    rating: 4.7,
+    isComboEligible: true,
+  },
+  {
+    id: 14,
+    name: "Medu Vada",
+    description: "Crispy lentil donuts served with sambar and coconut chutney",
+    price: 6.99,
+    image: idli,
+    category: "South Indian",
+    rating: 4.6,
+    isComboEligible: true,
+  },
+  
+  // Snacks
+  {
+    id: 15,
+    name: "Samosa",
+    description: "Crispy pastry filled with spiced potatoes and peas",
+    price: 3.99,
+    image: samosa,
+    category: "Snacks",
+    rating: 4.7,
+    isComboEligible: true,
+  },
+  {
+    id: 16,
+    name: "Veg Pakora",
+    description: "Mixed vegetable fritters with mint chutney",
+    price: 4.99,
+    image: samosa,
+    category: "Snacks",
+    rating: 4.5,
+    isComboEligible: true,
+  },
+  {
+    id: 17,
+    name: "Paneer Tikka",
+    description: "Grilled cottage cheese cubes marinated in Indian spices",
+    price: 9.99,
+    image: samosa,
+    category: "Snacks",
+    rating: 4.8,
+    isComboEligible: true,
+  },
+  {
+    id: 18,
+    name: "Aloo Bonda",
+    description: "Spiced potato balls deep-fried in gram flour batter",
+    price: 3.49,
+    image: samosa,
+    category: "Snacks",
+    rating: 4.6,
+    isComboEligible: true,
+  },
+  
+  // Drinks
+  {
+    id: 19,
+    name: "Mango Lassi",
+    description: "Refreshing yogurt-based mango smoothie",
+    price: 4.49,
+    image: drinks,
+    category: "Drinks",
+    rating: 4.8,
+    isComboEligible: false,
+  },
+  {
+    id: 20,
+    name: "Masala Chai",
+    description: "Traditional Indian spiced tea",
+    price: 2.99,
+    image: drinks,
+    category: "Drinks",
+    rating: 4.7,
+    isComboEligible: false,
+  },
+  {
+    id: 21,
+    name: "Fresh Lime Soda",
+    description: "Refreshing lime juice with soda water",
+    price: 3.49,
+    image: drinks,
+    category: "Drinks",
+    rating: 4.5,
+    isComboEligible: false,
+  },
+  {
+    id: 22,
+    name: "Filter Coffee",
+    description: "Authentic South Indian filter coffee",
+    price: 3.99,
+    image: drinks,
+    category: "Drinks",
+    rating: 4.9,
+    isComboEligible: false,
+  },
 ];
 
-export const categories = ["All", "Starters", "Main Course", "Desserts", "Beverages"];
+export const categories = ["All", "Starters", "Main Course", "Desserts", "Beverages", "South Indian", "Snacks", "Drinks"];
